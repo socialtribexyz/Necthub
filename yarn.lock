@@ -1631,6 +1631,11 @@
     "@nomicfoundation/solidity-analyzer-win32-ia32-msvc" "0.1.0"
     "@nomicfoundation/solidity-analyzer-win32-x64-msvc" "0.1.0"
 
+"@nomiclabs/hardhat-ethers@^2.2.1":
+  "integrity" "sha512-RHWYwnxryWR8hzRmU4Jm/q4gzvXpetUOJ4OPlwH2YARcDB+j79+yAYCwO0lN1SUOb4++oOTJEe6AWLEc42LIvg=="
+  "resolved" "https://registry.npmjs.org/@nomiclabs/hardhat-ethers/-/hardhat-ethers-2.2.1.tgz"
+  "version" "2.2.1"
+
 "@pedrouid/environment@^1.0.1":
   "integrity" "sha512-HaW78NszGzRZd9SeoI3JD11JqY+lubnaOx7Pewj5pfjqWXOEATpeKIFb9Z4t2WBUK2iryiXX3lzWwmYWgUL0Ug=="
   "resolved" "https://registry.npmjs.org/@pedrouid/environment/-/environment-1.0.1.tgz"
@@ -4199,7 +4204,7 @@
     "ethjs-util" "0.1.6"
     "rlp" "^2.2.3"
 
-"ethers@^5.7.1", "ethers@>=5.5.1":
+"ethers@^5.0.0", "ethers@^5.7.1", "ethers@>=5.5.1":
   "integrity" "sha512-5krze4dRLITX7FpU8J4WscXqADiKmyeNlylmmDLbS95DaZpBhDe2YSwRQwKXWNyXcox7a3gBgm/MkGXV1O1S/Q=="
   "resolved" "https://registry.npmjs.org/ethers/-/ethers-5.7.1.tgz"
   "version" "5.7.1"
@@ -4687,7 +4692,7 @@
   "resolved" "https://registry.npmjs.org/graphql/-/graphql-16.6.0.tgz"
   "version" "16.6.0"
 
-"hardhat@^2.12.4":
+"hardhat@^2.0.0", "hardhat@^2.12.4":
   "integrity" "sha512-rc9S2U/4M+77LxW1Kg7oqMMmjl81tzn5rNFARhbXKUA1am/nhfMJEujOjuKvt+ZGMiZ11PYSe8gyIpB/aRNDgw=="
   "resolved" "https://registry.npmjs.org/hardhat/-/hardhat-2.12.4.tgz"
   "version" "2.12.4"
