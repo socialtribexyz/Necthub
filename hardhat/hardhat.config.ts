@@ -18,7 +18,7 @@ const MAINNET_RPC_URL =
 const GOERLI_RPC_URL = process.env.GOERLI_RPC_URL || 'https://eth-goerli.alchemyapi.io/v2/0i5eix1ojwuyTDU9piQoxBpk_YRS2L6N';
 const POLYGON_MAINNET_RPC_URL =
 	process.env.POLYGON_MAINNET_RPC_URL || 'https://polygon-mainnet.alchemyapi.io/v2/ctJBwu3UcEXA_ZmYG00jMp2tsxXcZ5GI';
-const PRIVATE_KEY = process.env.PRIVATE_KEY || '0x';
+const PRIVATE_KEY = process.env.PRIVATE_KEY || '3a9606224a4838f6318456b14fe3f9381495946e6fe652696888d48f39544034';
 
 
 
@@ -41,21 +41,18 @@ const config: HardhatUserConfig = {
 			accounts: PRIVATE_KEY !== undefined ? [PRIVATE_KEY] : [],
 			saveDeployments: true,
 			chainId: 80001,
-			gasPrice: 8000000000, // default is 'auto' which breaks chains without the london hardfork
 		},
 		mainnet: {
 			url: MAINNET_RPC_URL,
 			accounts: PRIVATE_KEY !== undefined ? [PRIVATE_KEY] : [],
 			saveDeployments: true,
 			chainId: 137,
-			gasPrice: 8000000000, // default is 'auto' which breaks chains without the london hardfork
 		},
 		polygon: {
 			url: POLYGON_MAINNET_RPC_URL,
 			accounts: PRIVATE_KEY !== undefined ? [PRIVATE_KEY] : [],
 			saveDeployments: true,
 			chainId: 137,
-			gasPrice: 8000000000, // default is 'auto' which breaks chains without the london hardfork
 		},
 	},
 	etherscan: {
