@@ -6,7 +6,7 @@ import 'solidity-coverage'
 import 'hardhat-gas-reporter'
 import 'hardhat-contract-sizer'
 import 'dotenv/config'
-
+import '@typechain/hardhat'
 /**
  * @type import('hardhat/config').HardhatUserConfig
  */
