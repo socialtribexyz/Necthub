@@ -41,18 +41,21 @@ const config: HardhatUserConfig = {
 			accounts: PRIVATE_KEY !== undefined ? [PRIVATE_KEY] : [],
 			saveDeployments: true,
 			chainId: 80001,
+			gasPrice: 8000000000, // default is 'auto' which breaks chains without the london hardfork
 		},
 		mainnet: {
 			url: MAINNET_RPC_URL,
 			accounts: PRIVATE_KEY !== undefined ? [PRIVATE_KEY] : [],
 			saveDeployments: true,
 			chainId: 137,
+			gasPrice: 8000000000, // default is 'auto' which breaks chains without the london hardfork
 		},
 		polygon: {
 			url: POLYGON_MAINNET_RPC_URL,
 			accounts: PRIVATE_KEY !== undefined ? [PRIVATE_KEY] : [],
 			saveDeployments: true,
 			chainId: 137,
+			gasPrice: 8000000000, // default is 'auto' which breaks chains without the london hardfork
 		},
 	},
 	etherscan: {
