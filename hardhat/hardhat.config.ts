@@ -14,17 +14,17 @@ import 'dotenv/config'
 const MAINNET_RPC_URL =
 	process.env.MAINNET_RPC_URL ||
 	process.env.ALCHEMY_MAINNET_RPC_URL ||
-	'https://eth-mainnet.alchemyapi.io/v2/your-api-key';
-const GOERLI_RPC_URL = process.env.GOERLI_RPC_URL || 'https://eth-goerli.alchemyapi.io/v2/your-api-key';
+	'https://eth-mainnet.alchemyapi.io/v2/7dqHqeSI_BMziTImcIDlTiaHGaoleXiN';
+const GOERLI_RPC_URL = process.env.GOERLI_RPC_URL || 'https://eth-goerli.alchemyapi.io/v2/0i5eix1ojwuyTDU9piQoxBpk_YRS2L6N';
 const POLYGON_MAINNET_RPC_URL =
-	process.env.POLYGON_MAINNET_RPC_URL || 'https://polygon-mainnet.alchemyapi.io/v2/your-api-key';
+	process.env.POLYGON_MAINNET_RPC_URL || 'https://polygon-mainnet.alchemyapi.io/v2/ctJBwu3UcEXA_ZmYG00jMp2tsxXcZ5GI';
 const PRIVATE_KEY = process.env.PRIVATE_KEY || '0x';
 
 
 
 // Your API key for Etherscan, obtain one at https://etherscan.io/
-const ETHERSCAN_API_KEY = process.env.ETHERSCAN_API_KEY || 'Your etherscan API key';
-const POLYGONSCAN_API_KEY = process.env.POLYGONSCAN_API_KEY || 'Your polygonscan API key';
+const ETHERSCAN_API_KEY = process.env.ETHERSCAN_API_KEY || 'RVN7RPXDED7Y13JJP7S1WJTH9BHW2N9DBZ';
+const POLYGONSCAN_API_KEY = process.env.POLYGONSCAN_API_KEY || 'UXNH31P1543HGEFJTMV75GS1GI8I7EZSGS';
 const REPORT_GAS = process.env.REPORT_GAS || false;
 
 const config: HardhatUserConfig = {
