@@ -20,7 +20,7 @@ const PageTitle = ({ title, ogImage = null }) => {
 					content="Tip easily from nectarhub profile and tell everyone about your achievements."
 				/>
 				<meta name="keywords" content="blockchain, portfolio tracker, transaction analyze" />
-				<meta itemProp="name" content="This is the beginning of the WEB 3 world! Claim your NectarHub profile...! Collect payments!" />
+				<meta itemProp="name" content="This is the beginning of the WEB 3 world!! Claim your NectarHub profile, Collect payments, join our beta pre-launch phase!!" />
 				<meta itemProp="image" content={ogImage ?? 'https://nectarhub.xyz/assets/images/og_image.jpeg'} />
 
 				{/* <!-- Twitter Card --> */}
@@ -30,7 +30,7 @@ const PageTitle = ({ title, ogImage = null }) => {
 				<meta name="twitter:image" content={ogImage ?? 'https://nectarhub.xyz/assets/images/og_image.jpeg'} />
 
 				{/* <!-- OpenGraph Card --> */}
-				<meta property="og:title" content="This is the beginning of the WEB 3 world! Claim your NectarHub profile... ! Collect payments!" />
+				<meta property="og:title" content="This is the beginning of the WEB 3 world! ! Claim your NectarHub profile, Collect payments, join our beta pre-launch phase!!" />
 				<meta property="og:type" content="article" />
 				<meta property="og:url" content="https://nectarhub.xyz/" />
 				<meta property="og:image" content={ogImage ?? 'https://nectarhub.xyz/assets/images/og_image.jpeg'} />
