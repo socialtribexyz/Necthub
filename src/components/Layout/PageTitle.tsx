@@ -4,11 +4,11 @@ const PageTitle = ({ title, ogImage = null }) => {
 	return (
 		<>
 			<Head>
-				<title>{title ?? 'Sendacoin'}</title>
+				<title>{title ?? 'Nectarhub'}</title>
 				{/* Meta tags */}
 
 				<meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-				<meta name="author" content="Sendacoin" />
+				<meta name="author" content="Nectarhub" />
 				<link rel="icon" href="/assets/images/sac_icon.svg" type="image/png" />
 
 				<meta name="theme-color" content="#ffc547" />
@@ -17,7 +17,7 @@ const PageTitle = ({ title, ogImage = null }) => {
 				<meta name="robots" content="index, follow" />
 				<meta
 					name="description"
-					content="Tip easily from sendacoin profile and tell everyone about your achievements."
+					content="Tip easily from nectarhub profile and tell everyone about your achievements."
 				/>
 				<meta name="keywords" content="blockchain, portfolio tracker, transaction analyze" />
 				<meta itemProp="name" content="Share you lens profile.! Collect payments!" />
@@ -25,8 +25,8 @@ const PageTitle = ({ title, ogImage = null }) => {
 
 				{/* <!-- Twitter Card --> */}
 				<meta name="twitter:card" content="summary_large_image" />
-				<meta name="twitter:creator" content="@Sendacoin_app" />
-				<meta name="twitter:site" content="@Sendacoin_app" />
+				<meta name="twitter:creator" content="@Nectarhub_app" />
+				<meta name="twitter:site" content="@Nectarhub_app" />
 				<meta name="twitter:image" content={ogImage ?? 'https://nectarhub.xyz/assets/images/og_image.jpeg'} />
 
 				{/* <!-- OpenGraph Card --> */}
@@ -36,9 +36,9 @@ const PageTitle = ({ title, ogImage = null }) => {
 				<meta property="og:image" content={ogImage ?? 'https://nectarhub.xyz/assets/images/og_image.jpeg'} />
 				<meta
 					property="og:description"
-					content="Tip easily from sendacoin profile and tell everyone about your achievements."
+					content="Tip easily from nectarhub profile and tell everyone about your achievements."
 				/>
-				<meta property="og:site_name" content="Sendacoin" />
+				<meta property="og:site_name" content="Nectarhub" />
 				<meta property="article:section" content="Article Section" />
 				<meta property="article:tag" content="Article Tag" />
 				<meta property="fb:admins" content="1212" />

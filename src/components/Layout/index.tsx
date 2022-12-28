@@ -153,7 +153,7 @@ const Layout = ({ children }) => {
 										Donate
 									</a>
 									<a
-										href="https://github.com/SendACoin/"
+										href="https://github.com/Nectarhub/"
 										target="_BLANK"
 										rel="noreferrer"
 										className="px-2 text-gray-500 hover:text-gray-900 cursor-pointer"

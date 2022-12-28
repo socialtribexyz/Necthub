@@ -43,7 +43,7 @@ const Home = () => {
 	return (
 		<>
 			<section className="w-full bg-gradient-to-b min-h-screen">
-				<PageTitle title="Sendacoin - Share Profile ! Collect Tips!" />
+				<PageTitle title="Nectarhub - Share Profile ! Collect Tips!" />
 
 				<div className="grid px-2 md:px-0 md:grid-cols-2 gap-7 items-center place-items-center">
 					<section>

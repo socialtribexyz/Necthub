@@ -20,8 +20,8 @@ const icon = document.currentScript.getAttribute('data-icon')
 	  )}.svg`
 	: 'https://nectarhub.xyz/assets/images/icon.svg';
 
-const toggleSendACoinWidget = () => {
-	const widget = document.getElementById('sendacoin_wiget');
+const toggleNectarhubWidget = () => {
+	const widget = document.getElementById('nectarhub_wiget');
 	if (widget.style.display === 'none') {
 		widget.style.display = 'block';
 	} else {
@@ -30,7 +30,7 @@ const toggleSendACoinWidget = () => {
 };
 
 const bubble_sact_button = !hide_sact_btn
-	? `<a onClick="toggleSendACoinWidget()"
+	? `<a onClick="toggleNectarhubWidget()"
 					style="display: flex;justify-content: center;align-items: center;tab-size: 4;font-family: inherit;line-height: inherit;box-sizing: border-box;border-width: 0;border-style: solid;border-color: #e5e7eb;--tw-shadow: 0 0 rgba(0,0,0,0);--tw-ring-inset: var(--tw-empty,/*!*/ /*!*/);--tw-ring-offset-width: 0px;--tw-ring-offset-color: #fff;--tw-ring-color: rgba(59, 130, 246, 0.5);--tw-ring-offset-shadow: 0 0 rgba(0,0,0,0);--tw-ring-shadow: 0 0 rgba(0,0,0,0);cursor: pointer;color: inherit;text-decoration: inherit;position: fixed;right: 1.25rem;bottom: 1.25rem;"
 				>
         ${
@@ -55,8 +55,8 @@ document.body.innerHTML =
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
-	<div id="sendacoin_wiget" style="position: fixed; display:none; bottom: 90px; right: 22px;z-index:999999;">
-  <a onclick="toggleSendACoinWidget()" style="position: absolute;top: 20px; right: 17px;"><svg fill="none" viewBox="0 0 24 24" style="width:20px" stroke="currentColor" id="x" class="w-8 h-8 text-cool-gray-800 dark:text-cool-gray-200 group-hover:text-purple-600 group-focus:text-purple-600 dark:group-hover:text-purple-50 close-icon dark:group-focus:text-purple-50"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg></a>
+	<div id="nectarhub_wiget" style="position: fixed; display:none; bottom: 90px; right: 22px;z-index:999999;">
+  <a onclick="toggleNectarhubWidget()" style="position: absolute;top: 20px; right: 17px;"><svg fill="none" viewBox="0 0 24 24" style="width:20px" stroke="currentColor" id="x" class="w-8 h-8 text-cool-gray-800 dark:text-cool-gray-200 group-hover:text-purple-600 group-focus:text-purple-600 dark:group-hover:text-purple-50 close-icon dark:group-focus:text-purple-50"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg></a>
                         <iframe
                             frameborder="0"
                             className="shadow-lg rounded-md"
