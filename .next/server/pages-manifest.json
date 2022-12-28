@@ -1,0 +1,16 @@
+{
+  "/api/og": "pages/api/og.js",
+  "/_document": "pages/_document.js",
+  "/blog/[user]/[postId]": "pages/blog/[user]/[postId].html",
+  "/contact": "pages/contact.html",
+  "/dashboard": "pages/dashboard.html",
+  "/explore": "pages/explore.html",
+  "/embed": "pages/embed.html",
+  "/": "pages/index.html",
+  "/thanks": "pages/thanks.html",
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/feedback": "pages/feedback.html",
+  "/[profile]": "pages/[profile].js",
+  "/404": "pages/404.html"
+}
