@@ -9,7 +9,7 @@ import { useState } from 'react';
 
 const Profiles = [
 	{
-		handle: 'nader.lens',
+		handle: 'sasicodes.lens',
 		picture:
 			'https://ik.imagekit.io/lensterimg/tr:n-avatar,tr:di-placeholder.webp/https://lens.infura-ipfs.io/ipfs/QmVBfhfgfhGsRVxTNURVUgceqyzjdVe11ic5rCghmePuKX',
 	},
