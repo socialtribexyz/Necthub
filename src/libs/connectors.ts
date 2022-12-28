@@ -22,7 +22,7 @@ const avalancheChain = {
     id: 43_114,
     name: 'Avalanche',
     network: 'avalanche',
-    iconUrl: "https://cryptologotypes.com/img/logos/avalanche/avalanche-avax-logo.svg",
+    iconUrl: "https://cryptologotypes.com/img/logos/avalanche/avalanche-avax-logo.png",
     nativeCurrency: {
         decimals: 18,
         name: 'Avalanche',
@@ -43,7 +43,7 @@ const binanceSmartChain = {
     id: 56,
     name: 'Binance',
     network: 'binance',
-    iconUrl: "https://cryptologotypes.com/img/logos/binance-coin/binance-coin-bnb-logo.svg",
+    iconUrl: "https://cryptologotypes.com/img/logos/binance-coin/binance-coin-bnb-logo.png",
     nativeCurrency: {
         decimals: 18,
         name: 'Binance Coin',
@@ -64,7 +64,7 @@ const ftmChain = {
     id: 250,
     name: 'Fantom',
     network: 'fantom',
-    iconUrl: "https://cryptologotypes.com/img/logos/fantom/fantom-ftm-logo.svg",
+    iconUrl: "https://cryptologotypes.com/img/logos/fantom/fantom-ftm-logo.png",
     nativeCurrency: {
         decimals: 18,
         name: 'Fantom',

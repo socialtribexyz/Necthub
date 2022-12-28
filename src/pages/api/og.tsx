@@ -131,7 +131,7 @@ export default async function handler(req: NextRequest) {
 							style={{ marginTop: '-40px', background: '#fbf1dc' }}
 						>
 							<img
-								src="https://nectarhub.xyz/assets/images/icon.svg"
+								src="https://nectarhub.xyz/assets/images/icon.png"
 								width="40"
 								height="40"
 								style={{ marginRight: '20px' }}

@@ -9,7 +9,7 @@ const PageTitle = ({ title, ogImage = null }) => {
 
 				<meta httpEquiv="X-UA-Compatible" content="IE=edge" />
 				<meta name="author" content="Nectarhub" />
-				<link rel="icon" href="/assets/images/sac_icon.svg" type="image/png" />
+				<link rel="icon" href="/assets/images/sac_icon.png" type="image/png" />
 
 				<meta name="theme-color" content="#ffc547" />
 				<meta name="msapplication-navbutton-color" content="#ffc547" />

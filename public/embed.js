@@ -18,7 +18,7 @@ const icon = document.currentScript.getAttribute('data-icon')
 	? `https://raw.githubusercontent.com/spothq/cryptocurrency-icons/master/svg/color/${document.currentScript.getAttribute(
 			'data-icon'
 	  )}.svg`
-	: 'https://nectarhub.xyz/assets/images/icon.svg';
+	: 'https://nectarhub.xyz/assets/images/icon.png';
 
 const toggleNectarhubWidget = () => {
 	const widget = document.getElementById('nectarhub_wiget');
