@@ -49,7 +49,7 @@ const Home = () => {
 					<section>
 						<div className="mb-10">
 							<h1 className="mt-20 text-4xl md:text-6xl font-extrabold tracking-tight md:leading-tight">
-								Share you lens profile. <br />
+								This is the beginning of the WEB 3 world! Claim your NectarHub profile... <br />
 								Collect payments!
 							</h1>
 							<div className="space-x-5 flex items-center uppercase mt-2 mb-5">
