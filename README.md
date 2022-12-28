@@ -1,8 +1,14 @@
 ![nectarhub](https://i.imgur.com/yMkWs9p.jpg)
 
-## Share **🌿** profile ! Collect Payments
+Welcome to Nectarhub 🌿
+Nectarhub is a decentralized platform, built using polygon 🌿
 
-[Discord](https://discord.gg/F27NTNP9) • [Issues](https://github.com/Nectarhub/nectarhub.xyz/issues)
+Nectarhub Whitepaper🌿 •
+
+whitepaper loading...  ⚡️
+
+
+[Discord]() • [Issues](https://github.com/Nectarhub/nectarhub.xyz/issues)
 
 #### License
 
