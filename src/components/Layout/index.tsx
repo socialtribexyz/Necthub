@@ -204,7 +204,7 @@ const Layout = ({ children }) => {
 										rel="noreferrer"
 										className="pl-2"
 									>
-										@pjijin_
+										@officialsphrex
 									</a>
 								</p>
 							</footer>
