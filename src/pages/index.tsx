@@ -118,7 +118,7 @@ const Home = () => {
 						Generate Widget
 					</Button>
 				</div>
-				<img src="https://imgur.com/JhoCg0A" className="rounded-lg" />
+				<img src="https://i.imgur.com/JhoCg0A.jpg" className="rounded-lg" />
 			</section>
 		</>
 	);
