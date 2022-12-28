@@ -1,6 +1,16 @@
 {
+  "/api/og": "pages/api/og.js",
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js"
+  "/blog/[user]/[postId]": "pages/blog/[user]/[postId].html",
+  "/contact": "pages/contact.html",
+  "/dashboard": "pages/dashboard.html",
+  "/embed": "pages/embed.html",
+  "/explore": "pages/explore.html",
+  "/feedback": "pages/feedback.html",
+  "/": "pages/index.html",
+  "/thanks": "pages/thanks.html",
+  "/[profile]": "pages/[profile].js",
+  "/404": "pages/404.html"
 }
