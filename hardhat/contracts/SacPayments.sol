@@ -58,7 +58,7 @@ contract SacPayments {
     //                 "+",
     //                 "3",
     //                 "+",
-    //                 "You have received a tip - Sendacoin",
+    //                 "You have received a tip - nectarhub",
     //                 "+",
     //                 "You have received a tip from x Address - Y amount"
     //             )
