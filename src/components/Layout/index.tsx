@@ -153,7 +153,7 @@ const Layout = ({ children }) => {
 										Donate
 									</a>
 									<a
-										href="https://github.com/Nectarhub/"
+										href="https://github.com/socialtribexyz"
 										target="_BLANK"
 										rel="noreferrer"
 										className="px-2 text-gray-500 hover:text-gray-900 cursor-pointer"
@@ -199,7 +199,7 @@ const Layout = ({ children }) => {
 									/>
 									by
 									<a
-										href="https://twitter.com/pjijin_"
+										href="https://twitter.com/officialsphrex"
 										target="_BLANK"
 										rel="noreferrer"
 										className="pl-2"

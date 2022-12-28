@@ -7,7 +7,7 @@ const Feedback = () => {
 			<PageTitle title={'Feedback'} />
 
 			<Card title="Love to hear your feedback!">
-				<a href="https://twitter.com/pjijin_" target="_BLANK" rel="noreferrer noopener">
+				<a href="https://twitter.com/officialsphrex" target="_BLANK" rel="noreferrer noopener">
 					DM your suggestion / feedback on twitter.
 				</a>
 			</Card>

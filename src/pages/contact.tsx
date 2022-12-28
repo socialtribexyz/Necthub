@@ -6,7 +6,7 @@ const Contact = () => {
 		<section className="w-full bg-gradient-to-b ">
 			<PageTitle title={'Contact'} />
 			<Card title="Contact">
-				<a href="https://twitter.com/pjijin_" target="_BLANK" rel="noreferrer noopener">
+				<a href="https://twitter.com/officialsphrex" target="_BLANK" rel="noreferrer noopener">
 					DM on twitter.
 				</a>
 			</Card>

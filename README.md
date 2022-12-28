@@ -8,8 +8,8 @@ Nectarhub Whitepaper🌿 •
 whitepaper loading...  ⚡️
 
 
-[Discord]() • [Issues](https://github.com/Nectarhub/nectarhub.xyz/issues)
+[Discord]() • [Issues](https://github.com/socialtribexyznectarhub.xyz/issues)
 
 #### License
 
-Nectarhub is open-sourced software licensed under the © [MIT](https://github.com/Nectarhub/nectarhub.xyz/blob/main/LICENSE).
+Nectarhub is open-sourced software licensed under the © [MIT](https://github.com/socialtribexyznectarhub.xyz/blob/main/LICENSE).
