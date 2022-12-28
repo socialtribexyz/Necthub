@@ -14,7 +14,7 @@ const Profiles = [
 			'https://ik.imagekit.io/lensterimg/tr:n-avatar,tr:di-placeholder.webp/https://lens.infura-ipfs.io/ipfs/QmVBfhfgfhGsRVxTNURVUgceqyzjdVe11ic5rCghmePuKX',
 	},
 	{
-		handle: 'jijin.lens',
+		handle: 'bradorbradley.lens',
 		picture: 'https://w3s.link/ipfs/bafkreiemxxeevwcvcoue46kznrvoyxy54isl5wleoaami65h4efcwhqvnu',
 	},
 	{

@@ -145,7 +145,7 @@ const Layout = ({ children }) => {
 										Discord
 									</a>
 									<a
-										href="https://nectarhub.xyz/jijin.lens"
+										href="https://nectarhub.xyz/bradorbradley.lens"
 										target="_BLANK"
 										rel="noreferrer"
 										className="px-2 text-gray-500 hover:text-gray-900 cursor-pointer"
