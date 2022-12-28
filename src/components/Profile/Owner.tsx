@@ -38,9 +38,9 @@ const Owner = () => {
 			<div className="space-x-3">
 				<ShareButton
 					name="twitter"
-					url={`https://twitter.com/intent/tweet?text=Hey%20%0A%0Ahttps%3A%2F%2Fsendacoin.to${router.asPath}`}
+					url={`https://twitter.com/intent/tweet?text=Hey%20%0A%0Ahttps%3A%2F%2Fnectarhub.xyz${router.asPath}`}
 				/>
-				<CopyToClipboard text={`https://sendacoin.to${router.asPath}`} onCopy={() => toast.success('Copied!')}>
+				<CopyToClipboard text={`https://nectarhub.xyz${router.asPath}`} onCopy={() => toast.success('Copied!')}>
 					<a
 						onClick={() => {}}
 						type="button"

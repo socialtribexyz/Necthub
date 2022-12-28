@@ -1,33 +1,37 @@
-const Web3 = require('web3');
+const {
+  use,
+  projectPath,
+  artifacts,
+  getNamedAccounts,
+} = require('hardhat/config');
+const {
+  deployments,
+} = require('hardhat/plugins');
+const {
+  deployContract,
+} = deployments;
 
-async function deployPolygon(web3, bytecode, contractName, args, deploymentOptions) {
-  console.log(`Deploying contract ${contractName}...`);
-  const contractInstance = new web3.eth.Contract(bytecode.abi);
-  const deployedContract = await contractInstance
-    .deploy({
-      data: bytecode.bytecode,
-      arguments: args,
-    })
-    .send(deploymentOptions);
-  console.log(`Deployed contract ${contractName} at address ${deployedContract.options.address}`);
-  return deployedContract;
-}
+use(require('@nomiclabs/hardhat-waffle'));
 
 async function main() {
   // Set up web3
-  const web3 = new Web3(process.env.WEB3_PROVIDER_URL);
+  const {
+    web3,
+  } = require('hardhat/web3');
 
-  // Set up deployment options
-  const deploymentOptions = {
-    from: process.env.DEPLOYER_ADDRESS,
-    gas: 4000000,
-  };
+  // Read the compiled contract
+  const contractArtifact = artifacts.require('SacPayments');
 
-  // Read the compiled SacPayments contract
-  const bytecode = require('./SacPayments.json');
+  // Get the deployer account
+  const {
+    deployer,
+  } = await getNamedAccounts();
 
-  // Deploy the SacPayments contract
-  const deployedContract = await deployPolygon(web3, bytecode, 'SacPayments', [arg1, arg2, arg3], deploymentOptions);
+  // Deploy the contract
+  console.log(`Deploying contract ${contractArtifact.contractName}...`);
+  const deployedContract = await deployContract(contractArtifact, [], { from: deployer });
+  console.log(`Deployed contract ${contractArtifact.contractName} at address ${deployedContract.address}`);
 }
 
 main();
+

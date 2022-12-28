@@ -78,7 +78,7 @@ const Layout = ({ children }) => {
 								<div className="py-5 md:py-0">
 									<Link href="/" passHref className="flex items-center">
 										<img
-											src="https://sendacoin.to/assets/images/logo.svg"
+											src="https://nectarhub.xyz/assets/images/logo.svg"
 											className="w-32 pl-2 md:pl-0  md:w-32 md:h-32"
 											alt=""
 										/>
@@ -145,7 +145,7 @@ const Layout = ({ children }) => {
 										Discord
 									</a>
 									<a
-										href="https://sendacoin.to/jijin.lens"
+										href="https://nectarhub.xyz/jijin.lens"
 										target="_BLANK"
 										rel="noreferrer"
 										className="px-2 text-gray-500 hover:text-gray-900 cursor-pointer"
@@ -161,7 +161,7 @@ const Layout = ({ children }) => {
 										Github
 									</a>
 									<a
-										href="https://app.splitbee.io/public/sendacoin.to"
+										href="https://app.splitbee.io/public/nectarhub.xyz"
 										target="_BLANK"
 										rel="noreferrer"
 										className="px-2 text-gray-500 hover:text-gray-900 cursor-pointer"

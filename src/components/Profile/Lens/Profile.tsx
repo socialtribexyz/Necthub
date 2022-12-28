@@ -57,7 +57,7 @@ const LensProfile = ({ profileId }) => {
 
 	return (
 		<>
-			<PageTitle title={profileId} ogImage={`https://sendacoin.to/api/og?handle=${profileId}`} />
+			<PageTitle title={profileId} ogImage={`https://nectarhub.xyz/api/og?handle=${profileId}`} />
 
 			<Spinner loading={profile ? false : true}>
 				{profile ? (

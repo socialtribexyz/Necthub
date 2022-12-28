@@ -55,7 +55,7 @@ export const CodeBlock = ({ code }) => {
 const DemoScript = ({ code }) => {
 	return (
 		<>
-			<Script type="text/javascript" src="https://sendacoin.to/embed.js" {...code.split(' ')}></Script>
+			<Script type="text/javascript" src="https://nectarhub.xyz/embed.js" {...code.split(' ')}></Script>
 		</>
 	);
 };
@@ -91,7 +91,7 @@ const Embed = () => {
 			<PageTitle title="Embed Widget" />
 			<div className="mt-5">
 				<p className="mb-5">Include javascript code on your HTML page</p>
-				<Prism language="javascript">{`<script type="text/javascript" src="https://sendacoin.to/embed.js" ${generatedValue} ></script>`}</Prism>
+				<Prism language="javascript">{`<script type="text/javascript" src="https://nectarhub.xyz/embed.js" ${generatedValue} ></script>`}</Prism>
 
 				<h5 className="font-medium my-4">Options</h5>
 

@@ -9,7 +9,7 @@ const ShowUrlBar = () => {
 	if (isMobile) {
 		return (
 			<div className="bg-white text-xs md:text-base rounded-full  md:px-5 pl-4 tracking-wider pr-2 py-2 border text-gray-900 flex items-baseline">
-				<span className="hidden md:inline">https://</span>sendacoin.to/
+				<span className="hidden md:inline">https://</span>nectarhub.xyz/
 				<input
 					type="text"
 					value={handle}
@@ -32,7 +32,7 @@ const ShowUrlBar = () => {
 
 	return (
 		<span className="bg-white text-xs md:text-base rounded-full  md:px-5 pl-4 tracking-wider pr-2 py-5 border text-gray-900">
-			<span className="hidden md:inline">https://</span>sendacoin.to/
+			<span className="hidden md:inline">https://</span>nectarhub.xyz/
 			<input
 				type="text"
 				value={handle}

@@ -87,7 +87,7 @@ const Home = () => {
 								<EyeOpenIcon className="w-10 h-10" />
 								<b className="block my-5">View Profile</b>
 								<p className="text-gray-500 mt-5">
-									Visit the sendacoin.to/lens handle page for your profile. Look at your profile{"'"}s
+									Visit the nectarhub.xyz/lens handle page for your profile. Look at your profile{"'"}s
 									appearance.
 								</p>
 							</div>

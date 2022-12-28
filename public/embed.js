@@ -18,7 +18,7 @@ const icon = document.currentScript.getAttribute('data-icon')
 	? `https://raw.githubusercontent.com/spothq/cryptocurrency-icons/master/svg/color/${document.currentScript.getAttribute(
 			'data-icon'
 	  )}.svg`
-	: 'https://sendacoin.to/assets/images/icon.svg';
+	: 'https://nectarhub.xyz/assets/images/icon.svg';
 
 const toggleSendACoinWidget = () => {
 	const widget = document.getElementById('sendacoin_wiget');
@@ -61,7 +61,7 @@ document.body.innerHTML =
                             frameborder="0"
                             className="shadow-lg rounded-md"
                             style="  animation: popup 0.7s;overflow: 'none';tab-size: 4;font-family: inherit;line-height: inherit;height: 560px;width: 450px;box-sizing: border-box;border-width: 0;border-style: solid;border-color: #e5e7eb;--tw-ring-inset: var(--tw-empty,/*!*/ /*!*/);--tw-ring-offset-width: 0px;--tw-ring-offset-color: #fff;--tw-ring-color: rgba(59, 130, 246, 0.5);--tw-ring-offset-shadow: 0 0 rgba(0,0,0,0);--tw-ring-shadow: 0 0 rgba(0,0,0,0);display: block;vertical-align: middle;border-radius: 0.375rem;--tw-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);box-shadow: var(--tw-ring-offset-shadow, 0 0 rgba(0,0,0,0)), var(--tw-ring-shadow, 0 0 rgba(0,0,0,0)), var(--tw-shadow);"
-							src="https://sendacoin.to/${username}?hide_social=true&widget_mode=true&hide_redirect=true"
+							src="https://nectarhub.xyz/${username}?hide_social=true&widget_mode=true&hide_redirect=true"
 							height="560px"
 							width="450px"
 						></iframe>
