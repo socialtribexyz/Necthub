@@ -50,7 +50,7 @@ const Home = () => {
 						<div className="mb-10">
 							<h1 className="mt-20 text-4xl md:text-6xl font-extrabold tracking-tight md:leading-tight">
 								We are the foundation of WEB3 <br />
-								Join our beta pre-launch phase!!
+								Join our pre-launch beta phase!!
 							</h1>
 							<div className="space-x-5 flex items-center uppercase mt-2 mb-5">
 								<p className="text-gray-500 text-xs pl-2">0% commission!</p>
