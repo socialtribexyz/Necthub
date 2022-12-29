@@ -1,4 +1,4 @@
-![nectarhub](https://i.imgur.com/yMkWs9p.jpg)
+![nectarhub](https://i.imgur.com/BKPgZeJ.jpg)
 
 Welcome to Nectarhub 🌿
 Nectarhub is a decentralized platform, built using polygon 🌿
